@@ -1,0 +1,22 @@
+=== conversion engine ===
+The actual conversion to ODT format is currently based on LibreOffice.
+Other engines could be added (AOO, MSO).
+
+* libreoffice-4.1
+
+=== node.js and its modules ===
+
+* node.js (node-0.10) - installing that from source is easy and quite self-contained too
+
+(modules can usually be installed with `npm install XXX`)
+
+* npm install stomp
+* npm install uuid
+
+=== message queuing / broker ===
+
+to achieve scalibility activemq is used:
+* http://activemq.apache.org/
+
+activemq-5.9.0:
+	* http://www.apache.org/dyn/closer.cgi?path=/activemq/apache-activemq/5.9.0/apache-activemq-5.9.0-bin.tar.gz 
