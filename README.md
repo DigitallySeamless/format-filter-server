@@ -20,6 +20,14 @@ converting input to the ODT format. Valid input formats are:
 * MS-OOXML-Documents (.docx),
 * MS-Binary-Word-Documents (.doc)
 
+
+License
+-------
+
+The code in this repository is AGPL-3.0 licensed 
+
+
+
 Implementation details
 ----------------------
 
@@ -69,10 +77,3 @@ Command line snippets
 
 curl --data-binary @/tmp/your_example.docx http://127.0.0.1:16080/ > /tmp/your_example.odt
 curl --data "Hello World!" http://127.0.0.1:16080/ > /tmp/your_example.odt
-
-
-License
--------
-
-The code in this repository is AGPL-3.0 licensed 
-
