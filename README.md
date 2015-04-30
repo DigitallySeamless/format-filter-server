@@ -70,6 +70,6 @@ Command line snippets
 curl --data-binary @/tmp/your_example.docx http://127.0.0.1:16080/ > /tmp/your_example.odt
 curl --data "Hello World!" http://127.0.0.1:16080/ > /tmp/your_example.odt
 
-Command line snippets
-~~~~~~~~~~~~~~~~~~~~~
+License
+--------------------
 The code in this repository is AGPL-3.0 licensed 
